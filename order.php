@@ -16,7 +16,7 @@
                     </div>
     
                     <div class="food-menu-desc">
-                        <h3>Smoke Pizza</h3>
+                        <h3>Cheesy Pizza</h3>
                         <input type="hidden" name="food" value="<?php $title; ?>">
                         <p class="food-price">300</p>
                         <input type="hidden" name="price" value="<?php $price; ?>">
@@ -31,13 +31,13 @@
                 <fieldset>
                     <legend>Delivery Details</legend>
                     <div class="order-label">Full Name</div>
-                    <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive" required>
+                    <input type="text" name="full-name" placeholder="Enter Your Name" class="input-responsive" required>
 
                     <div class="order-label">Phone Number</div>
-                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+                    <input type="tel" name="contact" placeholder="Contract Number" class="input-responsive" required>
 
                     <div class="order-label">Email</div>
-                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
+                    <input type="email" name="email" placeholder="Your Email" class="input-responsive" required>
 
                     <div class="order-label">Address</div>
                     <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
